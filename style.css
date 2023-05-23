@@ -333,3 +333,57 @@ body{
 .tab_content_box h2{
     margin: 0 0 20px;
 }
+
+
+.table{
+    height: 500;
+    overflow: auto;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    background-color: #f1eeee;
+    color: #8394a5 ;
+    font-size: 15PX;
+
+}
+
+th, td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+
+}
+tr:hover td{
+    color: #0298cf;
+    background-color: #f6f9fc;
+}
+summary{
+    padding: 1em;
+    background: rgb(255, 255, 255);
+    margin-bottom: 1em;
+    cursor: pointer;
+    outline: none;
+    border-radius: .3em;
+    font-weight: bold;
+    transition: background-color .3s ;
+    &:hover{
+        background:  rgb(199, 199, 202) ;
+    }
+}
+.tab_content_box h2{
+    font-size: 15px;
+    font-weight: 1;
+}
+.table_header h1{
+    font-size: 15px;
+    font-weight: 10;
+}
